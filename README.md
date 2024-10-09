@@ -16,17 +16,17 @@ Usamos Ansible para verificar la conexión con la máquina virtual y luego insta
 Verificar la conectividad con la máquina virtual:
 
 
-´´´ansible azure_vm -m ping´´´
+```ansible azure_vm -m ping```
 ![ping](./img/ping.jpg)
 Instalar Docker en la máquina virtual:
 
 
-´´´ansible-playbook playbooks/install_docker.yml´´´
+```ansible-playbook playbooks/install_docker.yml```
 ![Install_docker](./img/install_docker.jpg)
 
 Desplegar el contenedor con el juego de Super Mario Bros:
 
-´´´ansible-playbook playbooks/run_container.yml´´´
+```ansible-playbook playbooks/run_container.yml```
 ![Run_container](./img/run_container.jpg)
 
 ## 2️⃣ Acceso al Juego en la Nube
