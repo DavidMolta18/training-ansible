@@ -4,8 +4,11 @@ En este proyecto, utilizamos Ansible para aprovisionar una máquina virtual prev
 
 ## Herramientas Utilizadas
 Terraform: Para aprovisionar la infraestructura en Azure.
+
 Ansible: Para automatizar la configuración de la máquina virtual y desplegar la aplicación.
+
 Docker: Para contenerizar la aplicación del juego y ejecutarla en la máquina virtual.
+
 ## 🔧 Pasos Realizados
 ## 1️⃣ Aprovisionamiento de la Máquina Virtual con Ansible
 Usamos Ansible para verificar la conexión con la máquina virtual y luego instalar Docker y ejecutar el contenedor con el juego de Super Mario Bros. Los siguientes comandos fueron ejecutados para estos propósitos:
