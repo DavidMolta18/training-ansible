@@ -10,7 +10,9 @@ Ansible: Para automatizar la configuración de la máquina virtual y desplegar l
 Docker: Para contenerizar la aplicación del juego y ejecutarla en la máquina virtual.
 
 ## 🔧 Pasos Realizados
-## 1️⃣ Aprovisionamiento de la Máquina Virtual con Ansible
+## 1️⃣ Configuración inicial del ansible
+Se hizo un cambio en el archivo de configuración llamado hosts.ini y se agregaron las credenciales necesarias para poder ingresar a la máquina virtual de azure.
+## 2️⃣ Aprovisionamiento de la Máquina Virtual con Ansible
 Usamos Ansible para verificar la conexión con la máquina virtual y luego instalar Docker y ejecutar el contenedor con el juego de Super Mario Bros. Los siguientes comandos fueron ejecutados para estos propósitos:
 
 Verificar la conectividad con la máquina virtual:
@@ -32,7 +34,7 @@ Desplegar el contenedor con el juego de Super Mario Bros:
 
 ![Run_container](./img/run_container.jpg)
 
-## 2️⃣ Acceso al Juego en la Nube
+## 3️⃣ Acceso al Juego en la Nube
 Después de completar la configuración, accedimos al juego Super Mario Bros directamente desde un navegador web utilizando la IP pública de la máquina virtual. El juego fue exitosamente desplegado en la nube:
 
 ![Mario_bross](./img/mario_bross.jpg)
